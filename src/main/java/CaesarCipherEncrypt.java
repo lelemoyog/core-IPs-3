@@ -8,6 +8,12 @@ public class CaesarCipherEncrypt {
     public int getShiftKey() {
         return shiftKey;
     }
+    public void setMessage(String message) {
+        this.message = message;
+    }
+    public void setShiftKey(int shiftKey) {
+        this.shiftKey = shiftKey;
+    }
 
     public static String CaesarCipherEncryption(String message, int shiftKey){
         final String ALPHABETS= "abcdefghijklmnopqrstuvwxyz";
